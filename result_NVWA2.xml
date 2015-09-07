@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><ImportPeriodResponse xmlns="http://tempuri.org/"><ImportPeriodResult><string>
+
+<periodeverantwoording>
+   <resultaat>
+   <resultaatsoort>p-direkt</resultaatsoort>
+   <code>8311</code>
+   <uren>60</uren>
+</resultaat><resultaat>
+   <resultaatsoort>uurpool</resultaatsoort>
+   <code>PMU</code>
+   <uren>3</uren>
+</resultaat>
+</periodeverantwoording>
+
+<feedback>
+<feedbackMedewerker>
+
+</feedbackMedewerker>
+
+<feedbackLeidinggevende>
+
+</feedbackLeidinggevende>
+
+<feedbackPenO>
+
+</feedbackPenO>
+
+<feedbackFAB>
+
+</feedbackFAB>
+</feedback>
+
+<tussenresultaat>
+
+datum:01-02-2015;roostersoort:BES;tijdvak:zf;Uren:24;uurgroep:Beschikbaar_10
+datum:02-02-2015;roostersoort:BES;tijdvak:zf;Uren:12;uurgroep:Beschikbaar_10
+datum:03-02-2015;roostersoort:BES;tijdvak:f1;Uren:1;uurgroep:Beschikbaar_10
+datum:03-02-2015;roostersoort:BES;tijdvak:f2;Uren:2;uurgroep:Beschikbaar_10
+datum:03-02-2015;roostersoort:BES;tijdvak:zf;Uren:21;uurgroep:Beschikbaar_10
+</tussenresultaat>
+
+<onderbouwing>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutraal">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#9C6500"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="h:mm;@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Periodeverantwoording">
+  <Table ss:DefaultRowHeight="15">
+   <Column ss:Index="5" ss:Width="105.75"/>
+   <Column ss:Index="7" ss:Width="70.5"/>
+   <Column ss:Width="64.5"/>
+   <Column ss:Width="63"/>
+   <Column ss:Index="11" ss:Width="119.25"/>
+   <Column ss:Width="54"/>
+   <Column ss:Index="14" ss:Width="109.5"/>
+   <Column ss:Width="63"/>
+   <Row>
+    <Cell><Data ss:Type="String">Personeelsnummer: 200052570</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Verantwoordingsperiode: p201501</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WTR categorie: 14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Medewerkerrechten die voorkomen in periode: ; ; ; ; </Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">datum</Data></Cell>
+    <Cell><Data ss:Type="String">dagsoort</Data></Cell>
+    <Cell><Data ss:Type="String">DV begin</Data></Cell>
+    <Cell><Data ss:Type="String">DV eind</Data></Cell>
+    <Cell><Data ss:Type="String">DV tijdrijbrieknaam</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Rooster begin</Data></Cell>
+    <Cell><Data ss:Type="String">Rooster eind</Data></Cell>
+    <Cell><Data ss:Type="String">roostersoort</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">uren gewerkt (inlc. OIO)</Data></Cell>
+    <Cell><Data ss:Type="String">modaliteit</Data></Cell>
+    <Cell></Cell>
+    <Cell><Data ss:Type="String">MIO uren</Data></Cell>
+    <Cell><Data ss:Type="String">PM uren</Data></Cell>
+    <Cell><Data ss:Type="String">OIO</Data></Cell>
+    <Cell><Data ss:Type="String">%</Data></Cell>
+    <Cell><Data ss:Type="String">ORD</Data></Cell>
+    <Cell><Data ss:Type="String">%</Data></Cell>
+    <Cell><Data ss:Type="String">BES</Data></Cell>
+    <Cell><Data ss:Type="String">%</Data></Cell>
+    <Cell><Data ss:Type="String">VER</Data></Cell>
+</Row>
+
+ <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2015-02-01</Data></Cell>
+    <Cell><Data ss:Type="String">z</Data></Cell>
+    
+    <Cell ss:Index="7" ss:StyleID="s63" ss:Formula="=0/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=24/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell><Data ss:Type="String">BES</Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=RC[-2]-RC[-3]" ><Data ss:Type="DateTime"></Data></Cell>
+
+<Cell ss:Index="11"><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell ><Data ss:Type="Number">24</Data></Cell>
+<Cell ><Data ss:Type="String">10%</Data></Cell>
+
+</Row>
+<Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+</Row>
+ <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2015-02-02</Data></Cell>
+    <Cell><Data ss:Type="String">z</Data></Cell>
+    
+    <Cell ss:Index="7" ss:StyleID="s63" ss:Formula="=7.5/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=16/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell><Data ss:Type="String">BES</Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=RC[-2]-RC[-3]" ><Data ss:Type="DateTime"></Data></Cell>
+
+</Row>
+<Row>
+<Cell ss:Index="7" ss:StyleID="s63" ss:Formula="=16.5/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=20/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell><Data ss:Type="String">BES</Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=RC[-2]-RC[-3]" ><Data ss:Type="DateTime"></Data></Cell>
+
+<Cell ss:Index="11"><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell ><Data ss:Type="Number">12</Data></Cell>
+<Cell ><Data ss:Type="String">10%</Data></Cell>
+
+</Row>
+<Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+</Row>
+ <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2015-02-03</Data></Cell>
+    <Cell><Data ss:Type="String">f</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s63" ss:Formula="=5/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=8/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell><Data ss:Type="String">Werk</Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=RC[-2]-RC[-3]" ><Data ss:Type="DateTime"></Data></Cell>
+
+    <Cell ss:Index="7" ss:StyleID="s63" ss:Formula="=0/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=24/24" ><Data ss:Type="DateTime"></Data></Cell>
+<Cell><Data ss:Type="String">BES</Data></Cell>
+<Cell ss:StyleID="s63" ss:Formula="=RC[-2]-RC[-3]" ><Data ss:Type="DateTime"></Data></Cell>
+
+<Cell ss:Index="11"><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell ><Data ss:Type="Number">24</Data></Cell>
+<Cell ><Data ss:Type="String">10%</Data></Cell>
+
+</Row>
+<Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+</Row>
+<Row></Row> 
+<Row>
+  <Cell><Data ss:Type="String">Uurtegoed OVRWV bij start periode:</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">20</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Uurtegoed PMU bij start periode :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">20</Data></Cell>
+</Row>
+<Row></Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Uurtegoed OVRWV na verwerking periode :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">20</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Uurtegoed PMU na verwerking periode :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">23</Data></Cell>
+</Row>
+<Row></Row>
+<Row>
+  <Cell><Data ss:Type="String">Overuren totaal geregistreerd (nog geen compensatie) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Overuren totaal (na compensatie binnen periode) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Totaal MIO(OVRWV) uren  (na compensatie met urentegoeden) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Uren totaal werktijd (minus overuren volledig uitbetalen; BES zonder te werken) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">3</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Totaal modaliteit periode :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Totaal persoonlijke meeruren (voor compensatie met urentegoeden of OVRWV) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">3</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Totaal persoonlijke meeruren (na compensaties) :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">3</Data></Cell>
+</Row>
+<Row></Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Voor jaarovergang :</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Persoonlijke meeruren in december :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String"> 0</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Urentegoed Persoonlijke meeruren op 31 december :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row>
+  <Cell><Data ss:Type="String">Persoonlijke meeruren mee naar het volgende jaar :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+<Row ss:StyleID="s66">
+  <Cell><Data ss:Type="String">Persoonlijke meeruren afgetrokken vanwege jaarovergang :</Data></Cell>
+  <Cell ss:Index="8"><Data ss:Type="String">0</Data></Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+ <FreezePanes/>
+ <SplitHorizontal>5</SplitHorizontal>
+ <ActivePane>2</ActivePane>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>
+</onderbouwing></string></ImportPeriodResult></ImportPeriodResponse></soap:Body></soap:Envelope>
